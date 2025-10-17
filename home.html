@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Personal Portfolio</title>
+
+<!-- Optional handwritten font -->
+<link href="https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap" rel="stylesheet">
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background-color: #3b2f2f;
+        color: white;
+        font-family: Arial, sans-serif;
+    }
+
+    header {
+        padding: 20px 40px;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .title-block {
+        text-align: center;
+        line-height: 1.2;
+    }
+
+    .highlight {
+        color: #e47b2d;
+        font-weight: bold;
+        font-size: 32px;
+        letter-spacing: 1px;
+    }
+
+    .subtitle {
+        display: block;
+        font-size: 18px;
+        font-weight: bold;
+        color: white;
+        margin-top: 5px;
+    }
+
+    nav ul {
+        list-style: none;
+        display: flex;
+        gap: 40px;
+        margin-top: 10px;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: color 0.3s;
+    }
+
+    nav a:hover {
+        color: #e47b2d;
+    }
+
+    hr {
+        margin-top: 10px;
+        border: 0.5px solid #000;
+    }
+
+    .intro {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 60px;
+        margin-top: 40px;
+    }
+
+    .profile-image img {
+        width: 320px;
+        height: auto;
+        border-radius: 10px;
+    }
+
+    .text-content {
+        text-align: center;
+    }
+
+    .text-content h1 {
+        font-family: "Papyrus";
+        color: #7aff3d;
+        font-size: 48px;
+        line-height: 1.4;
+    }
+
+    .text-content h3 {
+        color: #ff4b6b;
+        font-family: "Brush Script MT", cursive;
+        font-size: 36px;
+        margin-top: 20px;
+    }
+
+    .text-content p {
+        color: #ff4b6b;
+        font-weight: bold;
+        font-size: 20px;
+        margin-top: 5px;
+    }
+</style>
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <div class="title-block">
+                <span class="highlight">PERSONAL PORTFOLIO</span><br>
+                <a href="whoyouare.html"><span class="subtitle">Who you are</span></a>
+            </div>
+            <nav>
+                <ul>
+                   <li><a href="home.html">Home</a></li>
+      <li><a href="aboutme.html">About Me</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="hobbies.html">Hobbies</a></li>
+      <li><a href="contacts&access.html">Contact/Access</a></li>
+                </ul>
+            </nav>
+        </div>
+        <hr>
+    </header>
+
+    <main>
+        <section class="intro">
+            <div class="profile-image">
+                <img src="IMG_20240905_172506-removebg-preview.png" alt="Profile Picture">
+            </div>
+            <div class="text-content">
+                <h1>Data Base Management<br>System<br>(DBMS)</h1>
+                <h3>Mr. Quiros, Jhon Earl</h3>
+                <p>OOP Instructor</p>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

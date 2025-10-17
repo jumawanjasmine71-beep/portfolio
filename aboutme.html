@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Personal Portfolio</title>
+
+<!-- Handwritten-style font -->
+<link href="https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap" rel="stylesheet">
+
+<style>
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #3b2f2f; /* dark brown */
+  color: #fff;
+  font-family: 'Langar';
+}
+
+/* --- Header --- */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 80px;
+  background-color: #3b2f2f;
+}
+
+.header-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.header-left h1 {
+  color: #d26b2c; /* orange title */
+  font-size: 40px;
+  margin: 0;
+  margin-bottom: 6px;
+  letter-spacing: 1px;
+}
+
+.header-left h2 {
+  font-size: 20px;
+  color: #fff;
+  margin: 4px 0 0 0;
+  letter-spacing: 2px;
+}
+
+/* --- Navigation --- */
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  margin-left: 30px;
+  font-size: 18px;
+}
+
+nav a:hover {
+  color: #d26b2c;
+}
+
+/* --- Divider --- */
+hr {
+  border: 1px solid #fff;
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* --- Main Content --- */
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 80px;
+  gap: 60px;
+}
+
+.section img {
+  width: 320px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+/* --- Info Box --- */
+.info {
+  color: #fff;
+  font-size: 22px;
+  line-height: 1.8;
+}
+
+.info .row {
+  margin-bottom: 16px;
+}
+
+.info .label {
+  font-weight: bold;
+  color: #fff;
+}
+
+.info .value {
+  margin-left: 12px;
+  color: #fff;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="header-left">
+    <h1>PERSONAL PORTFOLIO</h1>
+    <h3>Who you are</h3>
+  </div>
+
+  <nav>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="aboutme.html">About Me</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="hobbies.html">Hobbies</a></li>
+      <li><a href="contacts&access.html">Contact/Access</a></li>
+  </nav>
+</header>
+
+<hr>
+
+<section class="section">
+  <div class="photo">
+    <img src="IMG_20240905_172506-removebg-preview.png" alt="Profile Photo">
+  </div>
+
+  <div class="info">
+    <div class="row"><span class="label">Name:</span> Jumawan, Jasmine B.</div>
+    <div class="row"><span class="label">Course:</span> Bachelor Of Science In Information Technology</div>
+    <div class="row"><span class="label">Year & Section:</span> 2nd Year - B</div>
+    <div class="row"><span class="label">School:</span> Sibugay Technical Institute Incorporated (STII)</div>
+    <div class="row"><span class="label">Age:</span> 19 Years Old</div>
+    <div class="row"><span class="label">Date Of Birth:</span> July 14, 2006</div>
+  </div>
+</section>
+
+</body>
+</html>

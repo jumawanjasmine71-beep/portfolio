@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Personal Portfolio</title>
+
+<!-- Handwritten-style font -->
+<link href="https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap" rel="stylesheet">
+
+<style>
+    body {
+  background-color: #3b2d2b;
+  color: white;
+  font-family: 'Langar', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 80px;
+}
+
+.header-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.header-left h1 {
+  color: #d26b2c;
+  margin: 0;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.header-left h2 {
+  margin-top: 5px;
+  font-size: 20px;
+  color: #fff;
+  letter-spacing: 2px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #fff;
+  margin: 0 50px;
+}
+
+/* Hobbies section */
+.hobbies-section {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 60px;
+  padding: 40px 100px;
+}
+
+.left-photo img {
+  width: 280px;
+  border-radius: 8px;
+}
+
+/* Hobbies text styling */
+.hobbies-text {
+  flex: 1;
+}
+
+.hobby-columns {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(250px, 1fr));
+  column-gap: 40px;
+  row-gap: 20px;
+  font-family: 'Langar', cursive;
+  font-size: 26px;
+  line-height: 1.6;
+  color: #fff;
+}
+</style>
+    <header>
+    <div class="header-left">
+        <h1>PERSONAL PORTFOLIO</h1>
+        <h2>Who you are</h2>
+    </div>
+    <nav>
+        <ul>
+           <li><a href="home.html">Home</a></li>
+      <li><a href="aboutme.html">About Me</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="hobbies.html">Hobbies</a></li>
+      <li><a href="contacts&access.html">Contact/Access</a></li>
+        </ul>
+    </nav>
+    </header>
+
+    <hr>
+
+    <section class="hobbies-section">
+    <div class="left-photo">
+        <img src="IMG_20240905_172506-removebg-preview.png" alt="Your Photo">
+    </div>
+    <div class="hobbies-text">
+        <div class="hobby-columns">
+        <p>Eating</p>
+        <p>Singing but always not good</p>
+        <p>Sleeping</p>
+        <p>Laughing</p>
+        <p>Playing Badminton</p>
+        <p>Eating popcorn, fries, pudge bar, ice cream</p>
+        <p>Watching short dramas in Melolo</p>
+        <p>Sometimes reading short story in Facebook</p>
+        </div>
+    </div>
+    </section>
